@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Kars Miesen",
+  username: "KM Development",
   title: "Hallo, ik ben Kars",
   subTitle: emoji(
-    "Een gedreven Full Stack Software developer 🚀 met erg veel ervaring van het bouwen van Web en Mobile apps in PHP (Laravel) / JavaScript / Nodejs / VueJS en nog een hoop andere frameworks. Als ik niet achter een computer op de knoppen druk doe ik dit ineen nachtclub of op een festival als freelance lightjockey of technicus."
+    "Een gedreven Full Stack Software developer 🚀 met erg veel ervaring van het bouwen van Web en Mobile apps in PHP (Laravel) / JavaScript / Nodejs / VueJS en nog een hoop andere frameworks. Als ik niet achter een computer op de knoppen druk doe ik dit in een nachtclub of op een festival als freelance lightjockey of technicus."
   ),
   resumeLink:
     "#", // Set to empty to hide the button
@@ -46,15 +46,69 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Wat doe ik allemaal?",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Fullstack Webdeveloper!",
+  subTitle: "Continue verdiepen in de nieuwste frameworks en technieken!",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Een interactieve Web/Mobile App van frontend tot backend?"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Progressive Web Applications ( PWA ) voor elk platform?")
+  ],
+
+  /* Make Sure to include correct Font Awesome Classname to view your icon
+https://fontawesome.com/icons?d=gallery */
+
+  softwareSkills: [
+    {
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
+    {
+      skillName: "Tailwind CSS",
+      fontAwesomeClassname: "fa-solid fa-file-code"
+    },
+    {
+      skillName: "HTML-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "SQL-Database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+const skillsSectionR = {
+  title: "Lightjockey / Technicus",
+  subTitle: "Passie voor licht en special effects!",
+  skills: [
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Opbouwen van evenementen en uitdenken van stages"
+    ),
+    emoji("⚡ Programmeren van lichttafels en special effects"),
+    emoji(
+      "⚡ Bedienen van lichttafels tijdens evenementen"
     )
   ],
 
@@ -63,56 +117,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Grand MA 3/2",
+      fontAwesomeClassname: "fa-solid fa-keyboard"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Grand MA On PC",
+      fontAwesomeClassname: "fa-solid fa-desktop"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Chimp 300",
+      fontAwesomeClassname: "fa-solid fa-keyboard"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Special Effects",
+      fontAwesomeClassname: "fa-solid fa-fire-burner"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -124,24 +142,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Avans Hogeschool",
+      logo: require("./assets/images/avanspng.png"),
+      subHeader: "HBO Informatica",
+      duration: "September 2017 - April 2022",
+      desc: "Niet afgemaakt, wel P behaald.",
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
@@ -151,16 +157,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Tailwind CSS: Frontend UI/Design", 
+      progressPercentage: "90%" 
     },
     {
-      Stack: "Backend",
+      Stack: "Laravel: API/Backend Development",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Programmeren in andere frameworks",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "LightJockey / Technicus: Grand MA 2/3/On PC",
+      progressPercentage: "55%"
+    },
+    {
+      Stack: "Chimp 300: Programmeren, Bedienen",
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -172,29 +186,34 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Webdeveloper",
+      company: "NetpointGroup BV",
+      companylogo: require("./assets/images/netpoint.png"),
+      date: "April 2020 – Heden",
+      desc: "Factoring, Software & Diensten Voor tandartsen, orthodontisten, mondhygiënisten, CBT en alle andere disciplines in de mondzorg",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Factoring, facturatie voor tandartsen, orthodontisten, mondhygienisten, CBT en alle andere disciplines in de mondzorg",
+        "Orthwin, OrthoTracing, Dentium, iOrtho: software voor orthodontisten",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Freelancer",
+      company: "Perfect Effects",
+      companylogo: require("./assets/images/perfect.png"),
+      date: "Jan 2022 - Heden",
+      desc: "Enorm geweldig bedrijf gespecialiseerd in het leven van special effects voor evenementen en speciale diensten",
+      descBullets: [
+        "Foute Feestje XXL - Goes",
+        "Smerrig - Kingsday",
+        "Elsom Open Air"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Freelance LightJockey / Technicus",
+      company: "Cafe Philip",
+      companylogo: require("./assets/images/cafe-philip.png"),
+      date: "December 2019 – Heden",
+      desc: "Club/Cafe in het centrum van Tilburg"
     }
   ]
 };
@@ -237,7 +256,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -295,7 +314,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -319,7 +338,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -338,7 +357,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -351,22 +370,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Stuur mij een berichtje! ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Heb je een opdracht of wil je meer informatie? Alles is welkom.",
+  number: "+316 25 20 12 15",
+  email_address: "karsmiesen@ziggo.nl"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
@@ -375,6 +394,7 @@ export {
   socialMediaLinks,
   splashScreen,
   skillsSection,
+  skillsSectionR,
   educationInfo,
   techStack,
   workExperiences,
